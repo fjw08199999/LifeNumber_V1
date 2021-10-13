@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		CE413D5227084B7400D83082 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE413D5127084B7400D83082 /* AppDelegate.swift */; };
 		CE413D5427084B7400D83082 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE413D5327084B7400D83082 /* SceneDelegate.swift */; };
-		CE413D5627084B7400D83082 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE413D5527084B7400D83082 /* ViewController.swift */; };
 		CE413D5927084B7400D83082 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE413D5727084B7400D83082 /* Main.storyboard */; };
 		CE413D5B27084B7600D83082 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE413D5A27084B7600D83082 /* Assets.xcassets */; };
 		CE413D5E27084B7600D83082 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE413D5C27084B7600D83082 /* LaunchScreen.storyboard */; };
+		CE413D6627084C9800D83082 /* BirthdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE413D6527084C9800D83082 /* BirthdayViewController.swift */; };
+		CE413D6827084CAB00D83082 /* ShowLifeNumberWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE413D6727084CAB00D83082 /* ShowLifeNumberWebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CE413D4E27084B7400D83082 /* LifeNumber_V1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifeNumber_V1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE413D5127084B7400D83082 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE413D5327084B7400D83082 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE413D5527084B7400D83082 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CE413D5827084B7400D83082 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE413D5A27084B7600D83082 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE413D5D27084B7600D83082 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE413D5F27084B7600D83082 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE413D6527084C9800D83082 /* BirthdayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayViewController.swift; sourceTree = "<group>"; };
+		CE413D6727084CAB00D83082 /* ShowLifeNumberWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowLifeNumberWebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				CE413D5127084B7400D83082 /* AppDelegate.swift */,
 				CE413D5327084B7400D83082 /* SceneDelegate.swift */,
-				CE413D5527084B7400D83082 /* ViewController.swift */,
 				CE413D5727084B7400D83082 /* Main.storyboard */,
+				CE413D6527084C9800D83082 /* BirthdayViewController.swift */,
+				CE413D6727084CAB00D83082 /* ShowLifeNumberWebViewController.swift */,
 				CE413D5A27084B7600D83082 /* Assets.xcassets */,
 				CE413D5C27084B7600D83082 /* LaunchScreen.storyboard */,
 				CE413D5F27084B7600D83082 /* Info.plist */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE413D5627084B7400D83082 /* ViewController.swift in Sources */,
 				CE413D5227084B7400D83082 /* AppDelegate.swift in Sources */,
 				CE413D5427084B7400D83082 /* SceneDelegate.swift in Sources */,
+				CE413D6627084C9800D83082 /* BirthdayViewController.swift in Sources */,
+				CE413D6827084CAB00D83082 /* ShowLifeNumberWebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
